@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik&display=swap');
+
+.html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', Verdana, Tahoma, sans-serif;
+    background-image: url(./images/background.jpg);
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black;
+}
+
+.nav-link.active {
+    color: #dc3545;
+}
+
+.nav-link:hover {
+    color: #dc3545;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+} 
+
+#presentation {
+    font-weight: bold;
+    font-size: 2rem
+}
+
+#my-name {
+    color: #dc3545;
+}
+
+#hacker {
+    text-decoration: line-through;
+}
+
+.btn-danger {
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-danger:hover {
+    transform: scale(1.1);
+}
+
+.main-container.main-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#social-media-btns {
+    font-size: 20px;
+}
+
+.fab {
+    font-size: 20px;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+
+#copyright {
+    font-size: 18px;
+}
+
+.fab:hover {
+    transform: scale(1.5);
+}
+
+.contact-card-wrapper {
+    border-radius: 8px;
+    width: 40rem;
+    padding: 50px 50px 20px 50px;
+    background-color: #fefefe;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+.contact-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"] {
+    background-color: #dc3545;
+    border: 1px solid gray;
+}
+
+#contact-number {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    font-size: 1.4rem;
+}
+
+.project-cards {
+    border: 1px solid black;
+}
