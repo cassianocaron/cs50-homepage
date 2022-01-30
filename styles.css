@@ -60,16 +60,6 @@ body {
     transform: scale(1.1);
 }
 
-.main-container.main-img {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-#social-media-btns {
-    font-size: 20px;
-}
-
 .fab {
     font-size: 20px;
     color: black;
@@ -84,17 +74,17 @@ body {
     transform: scale(1.5);
 }
 
+.contact-card-container {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-card-wrapper {
     border-radius: 8px;
     width: 40rem;
     padding: 50px 50px 20px 50px;
     background-color: #fefefe;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
-}
-
-.contact-card-container {
-    display: flex;
-    justify-content: center;
 }
 
 input[type="submit"] {
