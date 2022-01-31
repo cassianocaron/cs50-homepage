@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 .html {
     box-sizing: border-box;
@@ -33,20 +33,34 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-weight: bold;
 } 
 
-#presentation {
+.typing-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
     font-weight: bold;
-    font-size: 2rem
 }
 
-#my-name {
-    color: #dc3545;
+#feature-text {    
+    margin-left: 8px;
+}
+  
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
 }
 
-#hacker {
-    text-decoration: line-through;
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
 }
 
 .btn-danger {
