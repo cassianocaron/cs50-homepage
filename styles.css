@@ -19,6 +19,7 @@ body {
 .nav-link {
     font-weight: 600;
     color: black;
+    transition: transform 0.2s ease-in-out;
 }
 
 .nav-link.active {
@@ -27,6 +28,7 @@ body {
 
 .nav-link:hover {
     color: #dc3545;
+    transform: scale(1.2);
 }
 
 .main-text {
@@ -78,15 +80,10 @@ body {
 .fab {
     font-size: 20px;
     color: black;
-    transition: transform 0.2s ease-in-out;
 }
 
 #copyright {
     font-size: 18px;
-}
-
-.fab:hover {
-    transform: scale(1.5);
 }
 
 .contact-card-container {
